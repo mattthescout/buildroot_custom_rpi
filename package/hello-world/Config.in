@@ -1,0 +1,5 @@
+config BR2_PACKAGE_HELLO_WORLD
+    bool "hello world module"
+    default n
+    help
+        A custom kernel module built for the Raspberry Pi.

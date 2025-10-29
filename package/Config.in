@@ -2390,6 +2390,7 @@ menu "Mail"
 endmenu
 
 menu "Miscellaneous"
+	source "package/hello-world/Config.in"
 	source "package/aespipe/Config.in"
 	source "package/bc/Config.in"
 	source "package/bitcoin/Config.in"
