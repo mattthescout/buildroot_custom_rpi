@@ -1,0 +1,5 @@
+config BR2_PACKAGE_HELLO_CDEV
+    bool "hello cdev module"
+    default n
+    help
+        A custom char device kernel module built for the Raspberry Pi.
